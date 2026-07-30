@@ -550,6 +550,29 @@ li { margin: 0.4rem 0; }
 
 .project-page { padding-top: 2.5rem; padding-bottom: 3rem; }
 
+.promo-video {
+  margin: 1.75rem 0 0;
+  padding: 0;
+}
+
+.promo-video video {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: var(--radius-lg);
+  background: #0b1220;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+  aspect-ratio: 16 / 9;
+}
+
+.promo-video figcaption {
+  margin-top: 0.65rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .faq-item { margin-bottom: 1.5rem; }
 .faq-item h3 {
   font-family: var(--sans);
