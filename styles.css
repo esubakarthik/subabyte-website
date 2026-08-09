@@ -356,6 +356,27 @@ h4 {
   border: 1px solid var(--accent-border);
 }
 
+.project-app-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: block;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.project-page .app-hero-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 16px;
+  display: block;
+  margin: 0 0 1.25rem;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
 .project-status {
   margin: 0;
   font-size: 0.7rem;

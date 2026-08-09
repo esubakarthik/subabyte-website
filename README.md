@@ -10,8 +10,11 @@ The **GitHub repo should be private**. The live website is still public on the i
 |-----|---------|
 | `/` | Company home |
 | `/play-with-krypto.html` | Play with Krypto project |
+| `/nightowl-responders.html` | NightOwl Responders product page |
+| `/topic-chat.html` | Redirect → NightOwl Responders (old name) |
 | `/support.html` | App Store support URL |
 | `/privacy.html` | App Store privacy policy URL |
+| `/terms.html` | Terms of Use (incl. NightOwl subscriptions) |
 
 ## Local preview
 
@@ -71,5 +74,12 @@ Point the domain at GitHub Pages. Keep existing **MX** records for email.
 
 ## App Store Connect
 
+### Play with Krypto
 - Privacy Policy: `https://subabyte.co.uk/privacy.html`
 - Support URL: `https://subabyte.co.uk/support.html`
+
+### NightOwl Responders
+- Privacy Policy: `https://subabyte.co.uk/privacy.html#nightowl` (or `/privacy.html`)
+- Support URL: `https://subabyte.co.uk/support.html#nightowl` (or `/support.html`)
+- Terms of Use (EULA): `https://subabyte.co.uk/terms.html`
+- Marketing: `https://subabyte.co.uk/nightowl-responders.html`

@@ -3,113 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Topic Chat — SubaByte</title>
-  <meta name="description" content="Topic Chat is an upcoming peer-to-peer, topic-based chat app from SUBABYTE LTD. No backend, on-device storage, topics expire after 10 days.">
+  <title>Topic Chat is now NightOwl Responders — SubaByte</title>
+  <meta name="description" content="Topic Chat has been renamed NightOwl Responders. Redirecting to the product page.">
+  <meta http-equiv="refresh" content="0; url=nightowl-responders.html">
+  <link rel="canonical" href="https://subabyte.co.uk/nightowl-responders.html">
   <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="site-header__inner">
-      <a class="brand" href="index.html">
-        <img src="assets/logo.svg" alt="SubaByte" width="168" height="40">
-      </a>
-      <nav>
-        <a href="index.html#projects">Projects</a>
-        <a href="support.html">Support</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="mailto:contact@subabyte.co.uk">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="page project-page">
-    <p class="eyebrow">Project · iOS · In development</p>
-    <h1>Topic Chat</h1>
+  <main class="page page-hero">
+    <p class="eyebrow">Renamed</p>
+    <h1>Topic Chat is now NightOwl Responders</h1>
     <p class="lede">
-      An unofficial, topic-based peer-to-peer chat app. Organise conversations into
-      focused topics inside each room — and let them disappear after ten days, with no
-      company database holding your messages.
+      The project formerly called Topic Chat is shipping as
+      <strong>NightOwl Responders</strong> — privacy-first peer-to-peer chat for on-call cover.
     </p>
-
-    <div class="note">
-      <strong>Coming soon.</strong> Topic Chat is in active development. Features and timing may change before release.
-      This page describes our current design intent.
-    </div>
-
-    <h2>The idea</h2>
-    <p>
-      Most chat apps centralise your conversations on a server. Topic Chat takes a different
-      approach: rooms connect devices directly, conversations are organised by topic within
-      each room, and message history lives on participants’ devices — not in a SubaByte database.
-    </p>
-
-    <h2>Planned features</h2>
-    <div class="card-grid">
-      <div class="info-card">
-        <h4>Topic-based rooms</h4>
-        <p>Create chat rooms and add topics inside them — so discussions stay focused instead of becoming one endless thread.</p>
-      </div>
-      <div class="info-card">
-        <h4>10-day topic expiry</h4>
-        <p>Topics are designed to fade: content within a topic is automatically removed after ten days, encouraging lighter, more ephemeral conversations.</p>
-      </div>
-      <div class="info-card">
-        <h4>No backend database</h4>
-        <p>We do not plan to operate a central server that stores your chat history. Room data is intended to remain on user devices.</p>
-      </div>
-      <div class="info-card">
-        <h4>Peer-to-peer connectivity</h4>
-        <p>Devices connect directly where possible, reducing reliance on a permanent cloud archive of your messages.</p>
-      </div>
-      <div class="info-card">
-        <h4>Local privacy assistant</h4>
-        <p>A planned on-device agent to help flag potentially confidential information — such as passwords or account numbers — before you post.</p>
-      </div>
-      <div class="info-card">
-        <h4>Unofficial &amp; independent</h4>
-        <p>Topic Chat is an independent SubaByte product — not affiliated with any existing messaging platform or brand.</p>
-      </div>
-    </div>
-
-    <h2>Privacy-first by architecture</h2>
-    <ul>
-      <li>No SubaByte-operated database for chat content.</li>
-      <li>Messages and room data stored on your device, under your control.</li>
-      <li>Ephemeral topics — content designed to expire, not accumulate forever.</li>
-      <li>Local-only checks before sending — confidential-data warnings processed on device.</li>
-    </ul>
-
-    <h2>What we are still deciding</h2>
-    <p>
-      Exact peer discovery, encryption details, and group-size limits are being refined during
-      development. A full privacy policy for Topic Chat will be published before App Store release.
-    </p>
-
     <p class="cta-row">
-      <a class="button" href="mailto:contact@subabyte.co.uk?subject=Topic%20Chat%20interest">Register interest</a>
-      <a class="button ghost" href="index.html#projects">All projects</a>
+      <a class="button" href="nightowl-responders.html">Go to NightOwl Responders</a>
+      <a class="button ghost" href="index.html">Home</a>
     </p>
-
-    <p class="back-link"><a href="index.html">← Back to SubaByte</a></p>
   </main>
-
-  <footer class="site-footer">
-    <div class="footer-brand">
-      <strong>SUBABYTE LTD</strong>
-      <span>Registered in England and Wales</span>
-    </div>
-    <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="play-with-krypto.html">Play with Krypto</a>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy</a>
-    </div>
-    <p class="footer-copy">© <span id="year"></span> SUBABYTE LTD</p>
-  </footer>
-  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script>location.replace("nightowl-responders.html");</script>
 </body>
 </html>
